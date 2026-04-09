@@ -20,11 +20,11 @@ In this task, you will be connecting to a Mongo database hosted over an Azure Li
    
 1. Once the SSH is connected to the VM, please enter the VM password given below:
    
-    * Password: **<inject key="Build Agent VM Password" enableCopy="true" />**
+   * Password: **<inject key="Build Agent VM Password" enableCopy="true" />**
 
-      ![](media/EX1-T1-S3.png "open cmd")
-   
-      >**Note**: Please note that while typing the password you won’t be able to see it due to security concerns.
+      ![](media/E1T1S3.png "open cmd")
+
+      >**Note**: Please note that while typing the password, you won’t be able to see it due to security concerns.
 
 1. While connected to your Linux VM, run the following command to verify whether MongoDB is installed:
 
