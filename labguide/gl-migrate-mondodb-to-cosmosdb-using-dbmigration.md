@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this exercise, you will be migrating your on-premises MongoDB database hosted over Azure Linux VM to Azure CosmosDB using Azure database migration. Azure Database Migration Service is a tool that helps you simplify, guide, and automate your database migration to Azure.
+In this exercise, you will be migrating your on-premises MongoDB database hosted on an Azure Linux VM to Azure Cosmos DB using Azure Database Migration. Azure Database Migration Service is a tool that helps you simplify, guide, and automate your database migration to Azure.
 
 ### Task 1: Explore the databases and collections in MongoDB
 
@@ -50,7 +50,6 @@ In this task, you will be connecting to a Mongo database hosted over an Azure Li
    sudo service mongodb start
    ```   
 
-
 2. While connected to your Linux VM, run the following command to connect to the mongo shell to display the databases and collections in it using the mongo shell.
 
    ```
@@ -72,7 +71,7 @@ In this task, you will be connecting to a Mongo database hosted over an Azure Li
 
    - Enter `exit` to exit from Mongo.
 
-   - Please run the below-mentioned commands in the command prompt and perform steps 1 and 2 again.
+   - Please run the commands mentioned below in the command prompt and perform steps 1 and 2 again.
 
       ```
       cd ~/Cloud-Native-Application/labfiles/src/developer/content-init
@@ -82,7 +81,7 @@ In this task, you will be connecting to a Mongo database hosted over an Azure Li
 
 ### Task 2: Create a Migration Project and migrate data to Azure CosmosDB
 
-In this task, you will create a Migration project within Azure Database Migration Service, and then migrate the data from MongoDB to Azure Cosmos DB. In the later exercises, you will be using the Azure CosmosDB to fetch the data for the products page. 
+In this task, you will create a Migration project within Azure Database Migration Service and then migrate the data from MongoDB to Azure Cosmos DB. In the later exercises, you will be using the Azure Cosmos DB to fetch the data for the products page. 
 
 1. In the Azure portal search bar, enter **Virtual machines (1)** and select **Virtual machines (2)** from the Services list.
 
@@ -108,7 +107,7 @@ In this task, you will create a Migration project within Azure Database Migratio
 
    ![](media/cdn-nat-lab4-e41-g8.png)
 
-   > **Note:** If you get **Welcome! What is Cosmos DB?** popup, close it by clicking on **X**.
+   > **Note:** If you get **Welcome! What is Cosmos DB?** pop-up, close it by clicking on **X**.
 
 1. In the **Data Explorer** pane, click the drop-down arrow **(1)** next to **New Collection**, and then select **New Database (2)**.
 
@@ -159,7 +158,7 @@ In this task, you will create a Migration project within Azure Database Migratio
 
       ![.](media/cdn-nat-lab4-e41-g16.png)
 
-      > **Note:** If you face an issue while connecting to the source DB, with an error connection refused. Please run the following commands in **build agent VM connected in CloudShell**. You can use the **Command to Connect to Build Agent VM**, which is given on the lab environment details page.
+      > **Note:** If you face an issue while connecting to the source DB, with an error connection refused. Please run the following commands in the **build agent VM connected in CloudShell**. You can use the **Command to Connect to Build Agent VM**, which is given on the lab environment details page.
 
       ```bash
       sudo apt install mongodb-server
@@ -218,4 +217,4 @@ In this task, you will create a Migration project within Azure Database Migratio
 
 ## Summary
 
-In this exercise, you have completed exploring your on-prem Mongodb and migrating your on-premises MongoDB database to Azure CosmosDB using Azure database migration.
+In this exercise, you have completed exploring your on-prem Mongodb and migrating your on-premises MongoDB database to Azure CosmosDB using Azure Database Migration.
