@@ -34,7 +34,7 @@ This architecture illustrates the deployment process for containerizing an appli
 
 ## Getting Started with the lab
  
-Welcome to your Cloud Native Application lab, We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Cloud Native Application lab. We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## **Accessing Your Lab Environment**
  
@@ -42,7 +42,7 @@ Once you're ready to dive in, your virtual machine and **Lab Guide** will be rig
 
    ![](./media/SSG.png)
 
-Once you get access to Virtual Machine, in the dialog for shutdown event tracker, click on **cancel**.
+Once you get access to the Virtual Machine, in the dialog for shutdown event tracker, click on **cancel**.
 
    ![](./media/cn-img-up.png)
 
@@ -117,7 +117,3 @@ Now, click on Next from the lower right corner to move to the next page.
    ![](./media/GS4.png "Enter Password")
 
 ### Happy Learning!!
-
-
-
-
