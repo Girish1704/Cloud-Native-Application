@@ -22,7 +22,7 @@ Participants should have:
 
 This architecture illustrates the migration process for transferring a MongoDB database to Azure Cosmos DB using Azure Database Migration Service. In this lab, the user will walk through the process of setting up a VM with MongoDB preloaded with tables and data, configuring Azure Database Migration Service to facilitate the migration, and transferring the database to Azure Cosmos DB. This lab provides a foundational understanding of using Azure tools to migrate on-premises databases to the cloud securely and efficiently.
 
-## Architechture Diagram
+## Architecture Diagram
 
 ![](./media/module4arch.png)
 
@@ -38,7 +38,7 @@ This architecture illustrates the migration process for transferring a MongoDB d
 
 ## Getting Started with the lab
  
-Welcome to your Cloud Native Application lab, We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your Cloud Native Application lab. We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
  
 ## **Accessing Your Lab Environment**
  
